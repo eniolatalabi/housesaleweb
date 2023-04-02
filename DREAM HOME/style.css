@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   
+    
+}
+
+main {
+    background-color: teal;
+    padding: 3rem;
+    text-align: center;
+}
+
+body {
+    padding: 15rem;
+}
+
+.class {
+    display: flex;
+    border-radius: 12px;
+    cursor: pointer;
+}
+section {
+    background-color: whitesmoke;
+    padding: 1rem;
+    margin: 1rem;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+section:hover {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+h3, p {
+    color: teal;
+
+}
+
+p {
+    font-style: italic;
+}
+h1 {
+    color: whitesmoke;
+}
+
